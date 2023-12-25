@@ -1,0 +1,48 @@
+body{
+    background-color:  rgb(46, 45, 45);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+#accueil{
+    padding: 2em;
+    border-radius: 0.5cm;
+    border: 2px solid white;
+    box-shadow: 5px 4px 10px red;
+    background-color: green;
+}
+
+nav{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+h1{
+    color: white;
+    text-align: center;
+}
+
+a{
+    border-radius: 0.2cm;
+    margin: 0 auto;
+    margin-bottom: 5px;
+    border: 2px solid rgb(21, 140, 196);
+    color: red;
+    text-decoration: none;
+    background-color: rgb(21, 140, 196);
+    font-size: 125%;
+    transition-duration: 0.5s;
+}
+
+a:hover{
+    background-color: white;
+    border: 2px solid rgb(21, 140, 196);
+    font-size: 150%;
+    transition-duration: 0.5s;
+    color: black;
+}
