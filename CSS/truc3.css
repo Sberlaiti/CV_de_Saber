@@ -47,4 +47,5 @@ a{
     color: yellow;
     text-decoration: none;
     font-weight: bold;
+    transition-duration: 0.5s;
 }

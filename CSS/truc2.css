@@ -16,8 +16,26 @@ p{
     color: white;
 }
 
+#comm{
+    color: red;
+}
+
+span{
+    color: yellow;
+}
+
 .gras{
     font-weight: bold;
+}
+
+.niveau{
+    color:white;
+    background-color:white;
+    margin-right: 50px;
+}
+
+em{
+    color: aqua;
 }
 
 nav{
@@ -53,4 +71,5 @@ a{
     color: yellow;
     text-decoration: none;
     font-weight: bold;
+    transition-duration: 0.5s;
 }
