@@ -1,5 +1,5 @@
 body{
-    background-color: rgb(46, 45, 45);;
+    background-image: linear-gradient(to bottom, #66ff66 0%, #ffccff 100%);
 }
 
 h1{
@@ -29,8 +29,8 @@ span{
 }
 
 .niveau{
-    color:white;
-    background-color:white;
+    /*color:white;
+    background-color:white;*/
     margin-right: 50px;
 }
 
