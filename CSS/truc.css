@@ -46,3 +46,7 @@ a:hover{
     transition-duration: 0.5s;
     color: black;
 }
+
+a:active{
+    color:yellow;
+}

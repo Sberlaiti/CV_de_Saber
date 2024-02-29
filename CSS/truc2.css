@@ -26,16 +26,30 @@ span{
 
 .gras{
     font-weight: bold;
+    text-decoration: underline;
+}
+
+#niveau{
+    color: yellow;
+    background-color: yellow;
+    width: 150px;
+    border-radius: 0.1cm;
+}
+
+#niveau2{
+    background-color: white;
+    border-radius: 0.1cm;
 }
 
 .niveau{
-    /*color:white;
-    background-color:white;*/
-    margin-right: 50px;
+    color: yellow;
+    background-color: yellow;
+    border-radius: 0.1cm;
 }
 
-em{
-    color: aqua;
+.niveau2{
+    background-color: white;
+    border-radius: 0.1cm;
 }
 
 nav{
@@ -50,7 +64,7 @@ nav{
 
 footer{
     display: grid;
-    grid-template-areas: "footer div";
+    grid-template-areas: "footer div div";
 }
 
 .bloc{
@@ -65,6 +79,10 @@ a:hover {
     color: red;
     font-size: 150%;
     transition-duration: 0.5s;
+}
+
+a:active{
+    color:white;
 }
 
 a{
