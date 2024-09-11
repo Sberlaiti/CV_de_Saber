@@ -12,15 +12,16 @@
             <a href="Accueil-CV.HTML">Accueil</a>
             <a href="cv.html">Mon CV !</a>
         </nav>
+        
 
-        <div>
-            <label id="Nom">Nom </label><input type="text" name="Nom" placeholder="EXAMPLE">
-            <label>Prénom </label><input type="text" name="Prénom" placeholder="Example">
-            <label>Adresse mail </label><input type="text" name="e-mail" placeholder="example@gmail.com">
-            <label>Message </label><textarea name="message" placeholder="Quel est votre message ?" cols="30" rows="5"></textarea>
+        <form method="post" action="">
+            <label id="Nom">Nom* </label><input type="text" name="Nom" placeholder="EXAMPLE">
+            <label>Prénom* </label><input type="text" name="Prénom" placeholder="Example">
+            <label>Adresse mail* </label><input type="text" name="e-mail" placeholder="example@gmail.com">
+            <label>Message *</label><textarea name="message" placeholder="Quel est votre message ?" cols="30" rows="5"></textarea>
             <button onclick="PremierScript()">Envoyer</button>
 
             <script src="premier_script.js"></script>
-        </div>
+        </form>
     </body>
 </html>

@@ -1,3 +1,3 @@
 function PremierScript(){
-    window.alert("Etes-vous sûr de vouloir envoyer")
+    window.alert("Votre message a été envoyé")
 }
